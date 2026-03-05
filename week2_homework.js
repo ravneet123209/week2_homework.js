@@ -1,7 +1,7 @@
 //Task 1 - Advanced Login System
 let username = "admin"; 
-let password = 12345;
-let isActive = true;
+let password = 1234;
+let isActive = false;
 
 if(username ==="admin" && password ===1234 && isActive ===true){
     console.log("Login Successful");
