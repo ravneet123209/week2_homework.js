@@ -59,3 +59,14 @@ getGrade(60);
 
 
 
+//Bonus (Optional)
+
+function isEven(number){
+    if (number % 2 ===0){
+        console.log(`${number} is even `);
+    }else{
+        console.log(`${number} is odd `);
+    }
+}
+isEven(10);
+isEven(15);
