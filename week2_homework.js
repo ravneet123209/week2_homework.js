@@ -26,3 +26,15 @@ checkAccess(20,true);
 checkAccess(17,true);
 checkAccess(22,false);
 
+//Task 3 — Bank Withdrawal Function
+
+function withdraw(balance, amount){
+    if(amount>balance){
+        console.log("Insufficient funds");
+    }else{
+        console.log(balance);
+    }
+}
+withdraw(500, 200);
+withdraw(300, 500);
+
